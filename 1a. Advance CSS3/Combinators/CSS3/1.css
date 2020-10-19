@@ -1,0 +1,7 @@
+/** Descendant Selector **/
+
+div p {
+    color: red;
+    font-weight: bold;
+    font-variant: small-caps;
+}

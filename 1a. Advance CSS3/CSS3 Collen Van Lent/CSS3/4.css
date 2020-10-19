@@ -1,0 +1,35 @@
+/** Pseudo Elements vs Classes **/
+
+
+h1::before {
+    content: "";
+    background-image: url(../../image/Joker.jpg);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+h1:hover{
+    color: red;
+}
+
+h2 {
+    background-color: burlywood;
+    color: chartreuse;
+    transition-property: color, width, background, border-radius ;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+}
+
+h2:hover {
+    color: chocolate;
+    width: 350px;
+    background: red;
+    border-radius: 20%;
+
+}
+
+input {
+    box-shadow: inset 0px 0px 1px 1px red;
+  }

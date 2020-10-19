@@ -1,0 +1,22 @@
+/** Important Property will over-ride everything **/
+
+h1 {
+    color: brown !important;
+    font-variant: small-caps;
+}
+
+/** Even though we tried to over-ride it here **/
+
+h1 {
+    color: green;
+}
+
+span {
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h4 {
+    display: none;
+}

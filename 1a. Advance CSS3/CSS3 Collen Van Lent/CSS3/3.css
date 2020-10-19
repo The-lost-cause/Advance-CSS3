@@ -1,0 +1,25 @@
+/** Border-Box Keeps the widht common for all elements**/
+
+.C {
+    border: 1px solid red;
+    width: 200px;
+    padding: 10px;
+    box-sizing: content-box;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .B {
+    border: 1px solid blue;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  span {
+      color: red;
+      font-weight: bold;
+      font-variant: small-caps;
+  }

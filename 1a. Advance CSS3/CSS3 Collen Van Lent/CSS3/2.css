@@ -1,0 +1,14 @@
+span {
+    background-color: green;
+    float: left;
+}
+
+div {
+    background-color: cyan;
+    width: 500px;
+}
+
+.a {
+    width: 80px;
+    color: red;
+}

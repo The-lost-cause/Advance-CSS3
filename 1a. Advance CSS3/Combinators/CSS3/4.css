@@ -1,0 +1,7 @@
+/** Adjacent Sibling Selector **/
+
+div ~ p {
+    color: red;
+    font-variant: small-caps;
+    font-weight: bold;
+}

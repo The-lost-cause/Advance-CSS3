@@ -1,0 +1,52 @@
+/* My first Css */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+img {
+    border: 2px solid black;
+}
+
+h1, h2, h3 {
+    border: 2px dotted palevioletred;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+
+cite {
+    font-size: 2rem;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+ul a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    color: green;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+    background-color: white;
+}
+
+a.harvard:link {
+    color: magenta;
+}

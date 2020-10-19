@@ -1,0 +1,27 @@
+/** Basic of floats and clear **/
+
+.floatleft {
+    float: left;
+    border: 2px dashed blueviolet;
+    /*TRBL -- TRouBLe */
+    margin: 0 1rem 0 1rem;
+}
+
+article {
+    margin: 0 auto;
+    border: 2px solid red;
+    width: 30rem;
+    text-align: center;
+}
+
+.floatright {
+    float: right;
+}
+
+/* Formula for clearning in floats */
+
+article:after {
+    content: '';
+    display: table;
+    clear: both;
+}

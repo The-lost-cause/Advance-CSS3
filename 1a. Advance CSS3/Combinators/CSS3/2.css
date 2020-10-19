@@ -1,0 +1,11 @@
+/** Child Selector **/
+
+div > p {
+    color: red;
+}
+
+/** Descendant Selector **/
+
+section p {
+    color: blue;
+}
