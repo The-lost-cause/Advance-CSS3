@@ -1,0 +1,11 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+
+    /** By Default nowrap **/
+    flex-wrap: wrap;
+  }
+
+.container > div {
+    width: 300px;
+}

@@ -1,0 +1,18 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    height: 100%;
+
+    /** By default value: stretch **/
+    align-items: center;
+}
+
+/** For aligning single item **/
+
+.logout {
+    align-self: flex-start;
+}
+
+.home {
+    align-self: flex-end;
+}

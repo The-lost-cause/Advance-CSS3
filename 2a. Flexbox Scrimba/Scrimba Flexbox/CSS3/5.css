@@ -1,0 +1,17 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+
+.container > div {
+
+    /** Making the flex-items Responsive **/
+    flex: 1;
+}
+
+/** SHORTHAND: flex-grow, flex-shrink, flex-basis **/
+
+/** Here Making it TWICE as wide **/
+.container > .search {
+    flex: 2;
+}

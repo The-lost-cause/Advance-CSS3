@@ -1,0 +1,10 @@
+/** Changing to Column **/
+
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+}
+

@@ -1,0 +1,13 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+
+/* justify-content : flex-start flex-end center space-around
+space-between space-evenly */
+
+
+/* Try changing it for .search, and see the change **/
+.logout {
+    margin-left: auto;
+}

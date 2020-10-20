@@ -1,0 +1,10 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+  }
+
+  /** Source Order Independence in Flexbox **/
+
+  .item2 {
+      order: -1;
+  }
