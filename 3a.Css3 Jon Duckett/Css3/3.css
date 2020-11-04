@@ -1,0 +1,30 @@
+h1 {
+    text-shadow: 3px 3px 4px greenyellow;
+}
+
+p::first-letter {
+    font-weight: bold;
+    color: indigo;
+    font-size: xx-large;
+}
+
+input:hover {
+    border: 1px solid red;
+}
+
+input:focus {
+    color: sienna;
+}
+
+button:active {
+    color: seagreen;
+}
+
+/* Existence Selector Usage */
+p[class] {
+    color: green;
+}
+
+p[class='bong'] {
+    color: hotpink;
+}

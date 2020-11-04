@@ -1,0 +1,21 @@
+/* Color Co-ordination in Css */
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.hex {
+    color: #335;
+}
+
+.name {
+    color: green;
+}
+
+.hsl {
+    color: hsl(150, 50%, 50%);
+}
