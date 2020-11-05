@@ -1,0 +1,33 @@
+/* Layouts */
+
+body {
+    border: 1px solid red;
+}
+
+.relative {
+    border: 3px dotted green;
+    position: relative;
+    left: 20px;
+}
+
+.absolute {
+    border: 1px solid saddlebrown;
+    position: absolute;
+    right: 20px;
+}
+
+h4 {
+    height: 100px;
+    position: relative;
+    border: 1px solid olive;
+}
+
+p.karan {
+    border: 1px solid blue;
+    position: absolute;
+    bottom: 10px;
+}
+
+h5 {
+    border: 1px solid rebeccapurple;
+}
