@@ -7,4 +7,4 @@ FLOATS
 POSITIONING  
 COMBINATORS  
 ATTRIBUTES SELECTOR  
-Responsive Web Design Paradigm  **
+Responsive Web Design Paradigm**
