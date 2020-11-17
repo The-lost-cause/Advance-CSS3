@@ -1,0 +1,12 @@
+/* Making Center at all times Trick */
+
+.ex-box {
+    border: 3px solid #aaa;
+    background-color: #eee;
+    height: 300px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}

@@ -1,0 +1,57 @@
+.reverse {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    flex-direction: row-reverse;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box-1 {
+    background-color: red;
+}
+
+.box-2 {
+    background-color: green;
+}
+
+.box-3 {
+    background-color: orange;
+}
+
+
+/* align-items property testing 
+   align-items: stretch will stretch the height, to the container
+   NOTE: It should not have any height on it's container childrens, then it won't work
+*/
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    height: 300px;
+    align-items: stretch;
+    /* justify-content: center; */
+}
+
+
+.A {
+    width: 200px;
+    /* height: 200px; */
+    background-color: green;
+}
+
+.B {
+    width: 50px;
+    /* height: 150px; */
+    background-color: red;
+}
+
+
+.C {
+    width: 100px;
+    /* height: 80px; */
+    background-color: blueviolet;
+}
