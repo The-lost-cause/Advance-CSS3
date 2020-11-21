@@ -1,0 +1,23 @@
+address {
+    font-size: 4rem;
+    color: dodgerblue;
+    background-color: peru;
+    text-align: center;
+}
+
+/* Makes the text invisible */
+
+p {
+    border: 1px solid green;
+    color: transparent;
+}
+
+ul {
+    border: 1px solid rebeccapurple;
+    list-style-position: outside ;
+}
+
+li {
+    border: 1px solid red;
+    list-style-type: square;
+}
