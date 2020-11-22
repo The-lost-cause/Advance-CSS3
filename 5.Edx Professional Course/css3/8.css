@@ -1,0 +1,23 @@
+span {
+    border: 1px solid red;
+    width: 100px;
+    position: absolute;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li {
+    border: 1px solid red;
+    padding-right: 10px;
+    flex: 1;
+}
+
+.two {
+    flex:2 1;
+}

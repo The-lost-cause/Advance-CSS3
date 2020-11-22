@@ -1,0 +1,33 @@
+p {
+    border: 1px solid red;
+    /* position: fixed; */
+    left: 40px;
+    right: 150px;
+    /* margin: 100px; */
+}
+
+div {
+    border: 1px solid darkgoldenrod;
+    /* position: absolute; */
+    /* margin: 10px; */
+}
+
+ul {
+    position: relative;
+    border: 1px solid peru;
+}
+
+.rel {
+    position: relative;
+}
+
+li {
+    border: 1px solid blue;
+}
+
+span {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}

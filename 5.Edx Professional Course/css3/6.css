@@ -1,0 +1,22 @@
+li {
+    position: absolute;
+    border: 1px solid blueviolet;
+}
+
+ul {
+    position: relative;
+    border: 1px solid red;
+}
+
+.absolute {
+    position: absolute;
+    bottom: -5px;
+}
+
+body {
+    border: 1px solid seagreen;
+}
+
+html {
+    border: 1px solid peru;
+}

@@ -1,0 +1,32 @@
+span {
+    border: 1px solid blue;
+    padding-bottom: 90px;
+    /* Inline element doesn't get affected by top and bottom margin */
+    margin-top: 100px;
+    
+    vertical-align: center;
+    vertical-align: text-bottom;
+    text-decoration: underline;
+}
+
+
+p {
+    /* border: 1px solid red; */
+    padding-bottom: 80px;
+    color: transparent;
+}
+
+div {
+    border: 1px solid peru;
+    text-align: center;
+}
+
+.fixed {
+    margin: 0 auto;
+    border: 1px solid red;
+    position: fixed;
+    /* top: 5px; */
+    bottom: 10px;
+
+
+}
